@@ -105,7 +105,7 @@
                         понятным мир
                         информационных технологий для всех
                     </p>
-                    <a class="popup-link md:mb-20" href="#">Заказать обслуживание</a>
+                    <a class="popup-link md:mb-20" href="#popup">Заказать обслуживание</a>
                     <img class="md:absolute top-0 right-0" src="./src/img/hero/2.webp" alt="">
                     <p class="text-xl font-manropeBold mb-5">IТ-аутсорсинг IT&nbsp;EXPLORER в&nbsp;цифрах:</p>
                     <ul class="flex flex-col sm:flex-row flex-wrap gap-8">
@@ -132,6 +132,40 @@
                             <p class="max-w-[150px] text-sm sm:text-base">Сетевого оборудования</p>
                         </li>
                     </ul>
+                </div>
+            </section>
+
+            <section id="popup" class="popup">
+                <div class="popup__body">
+                    <div class="popup__content">
+                        <button class="popup__btn close-popup" aria-label="Закрыть" tabindex="4">
+                            <svg width="32" height="32" focusable="false" aria-hidden="true" viewBox="0 0 24 24">
+                                <path
+                                    d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z">
+                                </path>
+                            </svg>
+                        </button>
+                        <h2 class="popup__title">Закажите обслуживание
+                            прямо сейчас</h2>
+                        <p class="popup__text">Оставьте свои данные и наш специалист свяжется с вами в ближайшее время
+                        </p>
+
+                        <form action="#" id="form" class="form__body validate-form">
+                            <div class="form__item">
+                                <label for="formName">Введите имя <span class="text-orange">*</span></label>
+                                <input id="formName" type="text" name="name" class="form__input _req">
+                            </div>
+                            <div class="form__item">
+                                <label for="formPhone">Введите телефон <span class="text-orange">*</span></label>
+                                <input id="formPhone" type="tel" name="phone" class="form__input _req">
+                            </div>
+                            <button type="submit" class="form-button mb-7">Заказать</button>
+                            <p class="form__subtext">Нажимая на&nbsp;кнопку &laquo;Заказать&raquo;, я&nbsp;соглашаюсь
+                                на&nbsp;обработку персональных данных и&nbsp;соглашаюсь
+                                с&nbsp;политикой конфиденциальности</p>
+                        </form>
+
+                    </div>
                 </div>
             </section>
 
