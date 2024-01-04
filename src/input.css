@@ -9,6 +9,7 @@
 @import './block/sliders.css';
 @import './block/decor.css';
 @import './block/scrool-top.css';
+@import './block/hero.css';
 
 /* Импорт TailWind */
 @tailwind base;
@@ -93,14 +94,25 @@
 }
 
 .popup-link {
-    @apply block py-3 text-2xl uppercase px-8 bg-green rounded-lg text-center border-solid border-green border-[2px] transition-all relative z-[1] hover:bg-transparent;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 25px;
+    background: #613296;
+    font-size: 16px;
+    font-weight: 800;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.popup-link:hover {
+    background-color: #FF964A;
+    color: #ffffff
 }
 
 .nav-link {
     @apply text-lg uppercase hover:text-blue transition-colors;
 }
 
-/* Прочие классы */
+/* Технические классы */
 
 .lock {
     overflow: hidden;

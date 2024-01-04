@@ -38,6 +38,7 @@ module.exports = {
         'manropeSemiBold': ['manropeSemiBold', 'semi-bold'],
         'manropeBold': ['manropeBold', 'bold'],
         'manropeExtraBold': ['manropeExtraBold', 'extra-bold'],
+        'play': ['Play', 'bold'],
       }
     }
   },

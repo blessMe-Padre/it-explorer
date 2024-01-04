@@ -1,0 +1,6 @@
+.hero {
+    padding: 60px 0;
+    background-repeat: no-repeat;
+    background-image: url('../src/img/hero/hero-pattern.webp');
+    background-position: bottom right;
+}
