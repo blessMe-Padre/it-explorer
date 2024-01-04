@@ -114,7 +114,21 @@
     @apply text-lg uppercase hover:text-blue transition-colors;
 }
 
-/* Технические классы */
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 30px
+}
+
+@media (max-width: 420px) {
+    .services-list {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 20px
+    }
+}
+
+
+/* Утилитарные классы */
 
 .lock {
     overflow: hidden;

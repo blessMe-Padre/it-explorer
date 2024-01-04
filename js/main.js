@@ -16,7 +16,7 @@ window.addEventListener('DOMContentLoaded', () => {
     // initSlider();
     // initCurrentYear();
     // initScrollToTop();
-    // initScroll();
+    initScroll();
     // baguetteBox.run('.gallery-wrapper');
     initPopup();
 
