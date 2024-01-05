@@ -1979,6 +1979,10 @@ body {
   padding-top: 1.75rem;
 }
 
+.pb-12{
+  padding-bottom: 3rem;
+}
+
 .text-center{
   text-align: center;
 }
@@ -2429,6 +2433,10 @@ body {
 
   .md\:pt-2{
     padding-top: 0.5rem;
+  }
+
+  .md\:pb-24{
+    padding-bottom: 6rem;
   }
 
   .md\:text-5xl{

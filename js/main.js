@@ -17,6 +17,6 @@ window.addEventListener('DOMContentLoaded', () => {
     initCurrentYear();
     // initScrollToTop();
     initScroll();
-    // baguetteBox.run('.gallery-wrapper');
+    baguetteBox.run('.gallery-wrapper');
     initPopup();
 });

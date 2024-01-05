@@ -30,4 +30,36 @@ export const initSlider = () => {
             },
         });
     }
+
+    // сдайдер sertificate
+
+    const sertificateSlider = document.querySelector('.sertificate-swiper');
+    if (sertificateSlider) {
+        const swiper = new Swiper(sertificateSlider, {
+            loop: true,
+            spaceBetween: 30,
+            autoplay: true,
+            speed: 500,
+            breakpoints: {
+                320: {
+                    slidesPerView: 2,
+                    spaceBetween: 10,
+                    centeredSlides: true,
+                },
+                374: {
+                    slidesPerView: 2,
+                    spaceBetween: 10,
+                    centeredSlides: true,
+                },
+                767: {
+                    slidesPerView: 3,
+                    spaceBetween: 30,
+                },
+                1023: {
+                    slidesPerView: 4,
+                    spaceBetween: 30,
+                },
+            },
+        });
+    }
 }
