@@ -127,6 +127,12 @@
     }
 }
 
+.whom {
+    background-image: url('../src/img/pattern-2.webp');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
 
 /* Утилитарные классы */
 

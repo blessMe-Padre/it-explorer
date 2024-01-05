@@ -1,33 +1,32 @@
 export const initSlider = () => {
 
-    // слайдер "Отзывы"
-    const feedback = document.querySelector('.feedback');
-    if (feedback) {
-        const feedback = new Swiper('.feedback', {
+    // слайдер "Клиенты"
+    const clientsSlider = document.querySelector('.clients-swiper');
+    if (clientsSlider) {
+        const swiper = new Swiper(clientsSlider, {
             loop: true,
             spaceBetween: 30,
+            autoplay: true,
+            speed: 500,
             breakpoints: {
+                320: {
+                    slidesPerView: 2,
+                    spaceBetween: 10,
+                    centeredSlides: true,
+                },
                 374: {
-                    slidesPerView: 1,
-                    spaceBetween: 20,
+                    slidesPerView: 2,
+                    spaceBetween: 10,
+                    centeredSlides: true,
                 },
                 767: {
-                    slidesPerView: 2,
-                },
-                1023: {
                     slidesPerView: 3,
                     spaceBetween: 30,
                 },
-            },
-
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true
+                1023: {
+                    slidesPerView: 5,
+                    spaceBetween: 30,
+                },
             },
         });
     }

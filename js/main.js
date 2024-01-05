@@ -13,7 +13,7 @@ window.addEventListener('DOMContentLoaded', () => {
     initNav();
     initMask();
     initValidation();
-    // initSlider();
+    initSlider();
     // initCurrentYear();
     // initScrollToTop();
     initScroll();
