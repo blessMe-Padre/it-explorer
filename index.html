@@ -77,6 +77,8 @@
                                 data-goto=".page-section-5">Поддержка бизнеса</a></li>
                         <li class="px-4 mb-4"><a class="nav-link text-white" href="#"
                                 data-goto=".page-section-6">Сертификаты</a></li>
+                        <li class="px-4 mb-4"><a class="nav-link text-white" href="#" data-goto=".page-section-7">Узнать
+                                стоимость</a></li>
                     </ul>
                     <div class="flex gap-5 pl-4">
                         <a class="header-call-button" href="tel:+79147040414">Service Desk</a>
@@ -534,6 +536,48 @@
 
             </section>
 
+            <section id="price" class="price pt-8 sm:pt-16 page-section-7 bg-main-black">
+                <div class="container">
+                    <h2 class="text-orange">Получите рассчет</h2>
+                    <p
+                        class="text-white text-[28px] sm:text-[50px] font-black uppercase mb-10 font-play leading-tight mb-8">
+                        узнайте стоимость услуг IТ аутсорсинга</p>
+                    <p class="text-white mb-7">Оставьте свои данные и наш специалист свяжется с вами в ближайшее время
+                    </p>
+
+                    <div class="bg-dark-black rounded-3xl py-7 sm:py-14 px-5 sm:px-12">
+                        <form action="#" id="form" class="form__body validate-form">
+                            <div class="flex flex-col sm:flex-row flex-wrap gap-2 sm:gap-7">
+                                <div class="form__item">
+                                    <label for="formName">Введите имя <span class="text-orange">*</span></label>
+                                    <input id="formName" type="text" name="name" class="form__input _req">
+                                </div>
+                                <div class="form__item">
+                                    <label for="formPhone">Введите телефон <span class="text-orange">*</span></label>
+                                    <input id="formPhone" type="tel" name="phone" class="form__input _req">
+                                </div>
+                                <div class="form__item">
+                                    <p>Прикрепите карточку компании</p>
+                                    <div class="file">
+                                        <div class="file__item">
+                                            <input id="formImage" accept=".jpg, .png, gif, application/pdf" type="file"
+                                                name="image" class="file__input">
+                                            <label for="formImage" class="file__button">Выбрать файл</label>
+                                        </div>
+                                        <div id="formPreview" class="file__preview"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex flex-col sm:flex-row sm:gap-7">
+                                <button type="submit" class="form-button mb-7">Узнать стоимость</button>
+                                <p class="form__subtext">Нажимая на кнопку “Узнать стоимость”, я соглашаюсь на обработку
+                                    персональных данных и соглашаюсь с политикой конфиденциальности</p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
             <section id="popup" class="popup">
                 <div class="popup__body">
                     <div class="popup__content">
@@ -613,7 +657,7 @@
                         <li class="mb-5"><a class="text-sm sm:text-base transition-colors hover:text-orange"
                                 href="#sertificate">Сертификаты</a></li>
                         <li class="mb-5"><a class="text-sm sm:text-base transition-colors hover:text-orange"
-                                href="#">Узнать стоимость</a>
+                                href="#price">Узнать стоимость</a>
                         </li>
                     </ul>
                 </div>
