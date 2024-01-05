@@ -18,12 +18,14 @@ module.exports = {
       'purple': '#613296',
       // ---------------------------------
       'main-black': '#28262A',
+      'black': '#202020',
       'default-black': '#000000',
       'dark-black': '#1E1E1E',
       'light-gray': '#F5F2F9',
       'gray': '#8B8B8B',
       'blue': '#81B8F9',
       'violet': '#613296',
+      'light-violet': '#B7A2CE',
       'orange': '#FF964A',
     },
 

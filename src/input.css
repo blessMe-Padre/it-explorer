@@ -133,6 +133,31 @@
     background-position: bottom left;
 }
 
+.list-item-before {
+    position: relative;
+    padding-left: 30px;
+}
+
+.list-item-before::before {
+    content: '';
+    position: absolute;
+    top: 12px;
+    left: 0;
+    height: 1px;
+    width: 20px;
+    background-color: #FF964A;
+}
+
+@media (max-width: 767px) {
+    .list-item-before {
+        padding-left: 25px;
+    }
+
+    .list-item-before::before {
+        top: 6px;
+    }
+}
+
 
 /* Утилитарные классы */
 
