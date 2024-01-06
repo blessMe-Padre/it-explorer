@@ -107,11 +107,12 @@ const initValidation = () => {
     const formPreview = document.querySelector('#formPreview');
     const formButton = document.querySelector('.file__button');
 
-    formImage.addEventListener('change', () => {
-        uploadFile(formImage.files[0]);
-        console.log(formImage.files[0].name);
-    });
-
+    if (formImage) {
+        formImage.addEventListener('change', () => {
+            uploadFile(formImage.files[0]);
+            console.log(formImage.files[0].name);
+        });
+    }
     const uploadFile = (file) => {
         // проверяем тип файла
         if (!['image/jpeg', 'image/png', 'image/gif', 'application/pdf'].includes(file.type)) {
